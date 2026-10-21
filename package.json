@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-executivo-lucas-lima",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio Executivo em Obsidian Crystal Glassmorphism — 7 Projetos de Engenharia de Automação, ERP, Catálogo & Performance E-Commerce",
+  "scripts": {
+    "start": "npx serve . -l 4173",
+    "dev": "npx serve . -l 4173"
+  }
+}
