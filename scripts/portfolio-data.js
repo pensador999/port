@@ -1,5 +1,5 @@
 /* ==========================================================================
-   PORTFOLIO DATA ENGINE — 7 PRODUCTION PROJECTS, 9 PRODUCT FAMILIES & 15+ SCRIPTS
+   PORTFOLIO DATA ENGINE — 5 PRODUCTION SYSTEMS, 9 PRODUCT FAMILIES & 15+ SCRIPTS
    100% Brand-Anonymized & Free of Proprietary Internal SKU Identifiers
    Aesthetic: Architectural Titanium & Smoked Quartz
    ========================================================================== */
@@ -11,7 +11,7 @@ window.PORTFOLIO_DATA = {
       step: "ETAPA 01 • DEMANDA",
       title: "ClickUp & Fila de Coleções",
       desc: "Abertura de lotes de vestuário (50+ modelos × 7 tamanhos) e itens de revenda.",
-      projectsInvolved: ["Projeto #1: Hook Prime", "Projeto #6: ClickUp → Hub Bridge v3.2"],
+      projectsInvolved: ["Projeto #1: Hook Prime", "Projeto #5: ClickUp → Hub Bridge v3.2"],
       payloadPreview: "SSE Stream Ativo • Sincronização Contínua • Lote: 50 Modelos UV50+ (PP ao G4) → 1.050 SKUs gerados na fila"
     },
     {
@@ -31,7 +31,7 @@ window.PORTFOLIO_DATA = {
         "Projeto #1: Hook Prime",
         "Projeto #2: Sankhya Data Suite v17.0",
         "Projeto #3: Injetor Automático de Fotos Sankhya v18",
-        "Projeto #6: Bling Fetch Intercept v16 & Sankhya Editor v4.5"
+        "Projeto #5: Bling Fetch Intercept v16 & Sankhya Editor v4.5"
       ],
       payloadPreview: "Sankhya 45 Colunas + Bling 59 Colunas • 16.987 SKUs mapeados com foto • Lotes SQL de 3.000+ produtos"
     },
@@ -41,9 +41,9 @@ window.PORTFOLIO_DATA = {
       title: "Hub Magis5 & Marketplaces",
       desc: "Scanner Fabricação Própria vs Revenda, Estoque Infinito (1000) e sincronia multi-canal.",
       projectsInvolved: [
-        "Projeto #6: Autopilot Magis5 + Sankhya API Turbo v7.5",
-        "Projeto #6: Estoque Infinito Autopilot Magis5",
-        "Projeto #6: Sincronizador Amazon v7.1"
+        "Projeto #5: Autopilot Magis5 + Sankhya API Turbo v7.5",
+        "Projeto #5: Estoque Infinito Autopilot Magis5",
+        "Projeto #5: Sincronizador Amazon v7.1"
       ],
       payloadPreview: "Scanner Híbrido: Fabricação Própria (Sublimação = Saldo 1000 automático) vs Revenda Multimarcas (Saldo físico real)"
     },
@@ -54,18 +54,9 @@ window.PORTFOLIO_DATA = {
       desc: "Pesca Esportiva, Agro/Campo e Off-Road/Velocidade vigiadas em tempo real.",
       projectsInvolved: [
         "Projeto #4: Central Mestre de Descrições & Vigilante v5.0",
-        "Projeto #5: Catana Ops (Shopify Catalog-Ops)",
-        "Projeto #6: Shopify Verificador de Estoque v4.6"
+        "Projeto #5: Shopify Verificador de Estoque v4.6 & Assistente v6.0"
       ],
       payloadPreview: "25.295 SKUs Monitorados (12.582 Pesca | 5.955 Agro | 6.758 Off-Road) • 9 Arquétipos HTML em 3 Atos"
-    },
-    {
-      id: "node-ads",
-      step: "ETAPA 06 • CRO & TRÁFEGO",
-      title: "Blindagem de Mídia & CRO",
-      desc: "Auditoria de +39.696 SKUs, detecção de Estoque Fantasma e proteção de ROAS.",
-      projectsInvolved: ["Projeto #7: AdShield / LeakFinder (18 Agentes IA)"],
-      payloadPreview: "Protocolo Anti-Estoque Fantasma (4 Camadas) • Reconciliação ERP ↔ Hub ↔ Loja • Proteção de Grade Central (M/G e 38-41)"
     }
   ],
 
@@ -76,7 +67,7 @@ window.PORTFOLIO_DATA = {
       badge: "Fabricação Própria • Grade PP ao G4",
       title: "Vestuário Técnico UV50+ & Sublimação Total (_FULL)",
       examples: "Camisas técnicas de pesca esportiva com proteção solar extrema UV50+ certificada, linha de alta performance, tecidos dry-fit antibacterianos de secagem ultrarrápida, punho elástico e gola padre/zíper.",
-      engineering: "Multiplicação automatizada de matrizes: 50+ estampas × 7 tamanhos (PP ao G4/XG) × 3 modelagens (Masculino, Feminino, Infantil) = 1.050+ SKUs por lote, com regra de produção sob demanda (_FULL) isenta de falsos-positivos de ruptura."
+      engineering: "Multiplicação automatizada de matrizes: 50+ estampas × 7 tamanhos (PP ao G4/XG) × 3 modelagens (Masculino, Feminino, Infantil) = 1.050+ SKUs por lote, com regra de produção sob demanda (_FULL) e tabelas de medidas integradas."
     },
     {
       id: "fam-offroad",
@@ -100,15 +91,15 @@ window.PORTFOLIO_DATA = {
       badge: "Grade Numérica • 34 ao 44",
       title: "Calçados, Botinas de Couro & Sandálias Técnicas",
       examples: "Botinas de couro legítimo para campo/agro, sandálias técnicas antiderrapantes para pesca embarcada e caiaque, construídas em polímero impermeável de alta densidade com palmilha anatômica.",
-      engineering: "Gestão de grade numérica completa (34 ao 44), monitoramento prioritário da curva central de giro (tamanhos 38 ao 41) e aplicação automática de tabelas de medidas de palmilha em centímetros."
+      engineering: "Gestão de grade numérica completa (34 ao 44), padronização de variações no Sankhya/Bling e aplicação automática de tabelas de medidas de palmilha em centímetros."
     },
     {
       id: "fam-chapelaria",
       index: "05",
-      badge: "Controle Anti-Estoque Fantasma",
+      badge: "Estrutura & Acabamento Bordado",
       title: "Chapelaria, Bonés Trucker & Proteção de Cabeça",
       examples: "Bonés Trucker estruturados (sarja, denim estonado, tela respirável e patches bordados em alto relevo), chapéus australianos com protetor de nuca destacável e viseiras UV.",
-      engineering: "Auditoria rigorosa de fidelidade visual entre criativo de anúncio e variante enviada, além de bloqueio contra Estoque Fantasma (backorder ativo sem saldo físico real no galpão)."
+      engineering: "Vinculação precisa de imagens de estúdio por modelo/cor no ERP Sankhya e aplicação automática de descrições técnicas em 3 Atos nas 3 lojas Shopify."
     },
     {
       id: "fam-acessorios",
@@ -116,7 +107,7 @@ window.PORTFOLIO_DATA = {
       badge: "Regra Automática • Tamanho Único",
       title: "Acessórios de Proteção Solar (Tamanho Único)",
       examples: "Bandanas tubulares multifuncionais (Tubeneck UV50+), manguitos de compressão solar, luvas técnicas de pesca sem dedos com reforço palmar, meias térmicas e cintos.",
-      engineering: "Reconhecimento semântico automático de itens de Tamanho Único para isenção de alertas de grade quebrada e geração de cargas massivas de 59 colunas para o Bling em segundos."
+      engineering: "Reconhecimento semântico automático de itens de Tamanho Único e geração de cargas massivas de 59 colunas para o Bling e 45 colunas para o Sankhya em segundos."
     },
     {
       id: "fam-pesca",
@@ -374,65 +365,8 @@ def sincronizar_descricao_shopify(store_client, product_id: int, novo_body_html:
     },
 
     {
-      id: "proj-catana-ops",
-      rank: "PROJETO #5 • MOTOR DETERMINÍSTICO DE CATÁLOGO & QA",
-      accentColor: "#d6b87c",
-      secondaryColor: "#64748b",
-      name: "CATANA OPS (SHOPIFY / Catalog-Ops)",
-      subtitle: "Motor Determinístico TypeScript + SQLite Local para Preparação, Normalização e QA de Catálogos de Vestuário na Shopify",
-      summary: "Arquitetura enxuta em TypeScript puro (5 módulos nucleares + SQLite nativo + 27 testes automatizados) projetada para transformar planilhas industriais complexas (Bling 59 colunas, Sankhya 45 colunas e tabelas Excel de medidas com células mescladas) em pacotes Shopify Drafts CSV 100% auditáveis.",
-      kpis: [
-        { val: "3 Schemas", lbl: "Homologados: Bling 59, Sankhya 45 & Shopify Drafts CSV" },
-        { val: "8 Papéis", lbl: "Orquestração Serial com Gate de QA Independente" },
-        { val: "27 Testes", lbl: "Suíte Automatizada (Unitários, Contrato & E2E HTTP/CLI)" },
-        { val: "SQLite WAL", lbl: "Persistência Local Auditável com Backup Atômico" }
-      ],
-      stack: ["TypeScript (Node Native Strip-Types)", "SQLite Local (node:sqlite WAL)", "JSON Schema Contracts", "XLSX Merged-Cell Parser", "8-Role Serial Agent Pipeline", "Zero External Runtime Bloat"],
-      painPoints: [
-        "Planilhas vindas de ERPs e fornecedores chegam com ponto-e-vírgula, BOM UTF-8, células mescladas de medidas e risco constante de o Excel remover zeros à esquerda de códigos e GTINs/EANs.",
-        "Ferramentas genéricas baseadas apenas em prompts de IA podem inventar atributos fiscais, alterar preços decimais ou quebrar a relação entre produto Pai e suas variantes.",
-        "Faltava um ambiente local com histórico imutável de revisões onde cada pacote de catálogo só pudesse ser liberado após passar por um gate determinístico de QA."
-      ],
-      solutions: [
-        "Núcleo Determinístico Puro (src/catalog.ts & src/formats.ts): valida rigorosamente a assinatura dos 59 cabeçalhos do Bling e 45 do Sankhya, preserva identificadores como texto puro e bloqueia preços ambíguos.",
-        "Parser de Tabelas de Medidas com Células Mescladas: lê arquivos .xlsx reais de confecção, reconstrói os blocos por modelo/tamanho e anexa as medidas exatas ao cadastro.",
-        "Persistência SQLite com Auditoria Completa (src/store.ts): salva os arquivos brutos originais em disco, registra cada revisão de pacote e permite backup atômico com 1 comando.",
-        "Orquestração Serial de 8 Papéis Lógicos (src/agents.ts): Pesquisa, Qualificação, Atendimento, Planejador de Perfil, Produtor Determinístico, QA Independente, Financeiro e Coordenador."
-      ],
-      archSteps: [
-        { num: "01 • SCHEMA GATE", title: "Contratos 59 & 45 Col", desc: "Verifica ordem, presença e assinatura exata de todas as colunas antes de iniciar qualquer transformação." },
-        { num: "02 • NORMALIZER", title: "Pai/Variante & Medidas", desc: "Preserva zeros à esquerda, interpreta células mescladas de XLSX e separa Pai de Variantes com precisão." },
-        { num: "03 • 8-ROLE QA GATE", title: "Auditoria de Fatos", desc: "O papel de QA confere se a saída respeita estritamente os dados aprovados, bloqueando desvios." },
-        { num: "04 • SQLITE + EXPORT", title: "Pacote Shopify CSV", desc: "Grava trilha de auditoria imutável no SQLite e exporta o CSV de rascunhos pronto para a Shopify." }
-      ],
-      codeFilename: "SHOPIFY / src/catalog.ts & src/agents.ts (Catana Ops Core)",
-      codePreview: `// [CATANA OPS] Validação Determinística de Cabeçalhos ERP & Gate de QA Independente
-export function validateOfficialErpSchema(headers: string[], expectedSchema: string[]): SchemaValidationResult {
-  const missing = expectedSchema.filter((col) => !headers.includes(col));
-  const outOfOrder = headers.some((col, idx) => expectedSchema[idx] !== col);
-  return {
-    valid: missing.length === 0 && !outOfOrder,
-    missingColumns: missing,
-    strictOrderPreserved: !outOfOrder
-  };
-}
-
-// Regra de Ouro do Catana Ops: A IA analisa, resume e audita, mas NUNCA sobrescreve SKU, GTIN, NCM ou Preço
-export function enforceDeterministicFactsLock(sourceRow: RawCatalogRow, draftRow: ShopifyDraftRow): void {
-  if (sourceRow.sku !== draftRow.variantSku || sourceRow.priceCents !== draftRow.variantPriceCents) {
-    throw new Error(\`[QA_GATE_BLOCKED] Divergência detectada no item \${sourceRow.sku}. Bloqueando exportação.\`);
-  }
-}`,
-      productExamples: [
-        "Conversão auditada de grades completas de vestuário (Bling 59 colunas e Sankhya 45 colunas) para rascunhos Shopify.",
-        "Importação de planilhas Excel de medidas de confecção (Tórax, Comprimento, Manga) com células mescladas.",
-        "Análise automática de cobertura de fotos de estúdio por variante antes da publicação na vitrine."
-      ]
-    },
-
-    {
       id: "proj-tampermonkey-suite",
-      rank: "PROJETO #6 • AUTOMAÇÃO DIRETA NO NAVEGADOR (ERP, HUB & ADMIN)",
+      rank: "PROJETO #5 • AUTOMAÇÃO DIRETA NO NAVEGADOR (ERP, HUB & ADMIN)",
       accentColor: "#d6b87c",
       secondaryColor: "#64748b",
       name: "SUÍTE ENTERPRISE DE USERSCRIPTS (TAMPERMONKEY HUB)",
@@ -476,7 +410,7 @@ unsafeWindow.fetch = async function (...args) {
 
 // [MAGIS5 + SANKHYA TURBO v7.5] Classificador Automático: Fabricação Própria vs Revenda Multimarcas
 function classifyOperationalInventoryPolicy(itemCode, productTitle) {
-  const isOwnManufacturing = /(_FULL|^UV|^JERSEY)/i.test(itemCode) || /UV50\+|Sublima/i.test(productTitle);
+  const isOwnManufacturing = /(_FULL|^UV|^JERSEY)/i.test(itemCode) || /UV50\\+|Sublima/i.test(productTitle);
   return isOwnManufacturing ? { policy: 'INFINITE_PRODUCTION', targetStock: 1000 } : { policy: 'PHYSICAL_WAREHOUSE_SYNC' };
 }`,
       productExamples: [
@@ -485,64 +419,6 @@ function classifyOperationalInventoryPolicy(itemCode, productTitle) {
         "Conferência automatizada de estoque variante por variante (PP ao G4 e 34 ao 44) dentro do painel Admin das 3 lojas Shopify."
       ],
       hasUserscriptVault: true
-    },
-
-    {
-      id: "proj-adshield-worker",
-      rank: "PROJETO #7 • INTELIGÊNCIA DE CRO, CATÁLOGO & BLINDAGEM DE TRÁFEGO PAGO",
-      accentColor: "#d6b87c",
-      secondaryColor: "#64748b",
-      name: "ADSHIELD / LEAKFINDER (WORKER)",
-      subtitle: "Plataforma de Auditoria 360º de E-Commerce, Catálogo e Blindagem de Mídia Paga com 18 Agentes de IA & Protocolo Anti-Estoque Fantasma",
-      summary: "Aplicação React 19 + TypeScript + Vite que fecha a ponta comercial da operação: audita 100% do catálogo público paginado (+39.696 SKUs), cruza com os produtos Mais Vendidos (Curva A), detecta Estoque Fantasma e divergências ERP ↔ Hub ↔ Loja antes que o tráfego pago queime verba em grades rompidas.",
-      kpis: [
-        { val: "+39.696", lbl: "SKUs Auditados ao Vivo com Paginação 100% Completa" },
-        { val: "18 Agentes", lbl: "Enxame Especialista com Fonte Única da Verdade Financeira" },
-        { val: "4 Camadas", lbl: "Protocolo Anti-Estoque Fantasma (ERP, Criativo, Promessa & Pause)" },
-        { val: "38.2%", lbl: "Redução de Bundle JS (Arquitetura Local-First Ultrarrápida)" }
-      ],
-      stack: ["React 19 + TypeScript", "Vite + TailwindCSS", "Zustand Persist Store", "18 Specialized AI Agents", "Tree-of-Thought + Dual Gatekeeper", "Playwright Live Scanner", "Executive PDF Dossier Engine"],
-      painPoints: [
-        "Mesmo com o catálogo cadastrado, campanhas de Meta Ads e Google Shopping continuavam enviando tráfego pago para produtos de Curva A cujos tamanhos centrais (M e G no vestuário; 38 a 41 nos calçados) haviam acabado de esgotar.",
-        "Auditorias comuns falhavam diante do Estoque Fantasma: quando a loja deixava o botão 'Adicionar à Sacola' ativo em backorder (inventory_policy: continue), mas o galpão físico no Sankhya estava zerado.",
-        "Era fundamental separar automaticamente produtos de fabricação sob demanda (_FULL) e itens de Tamanho Único (bonés, bandanas, manguitos, equipamentos) para gerar diagnósticos com zero falso-positivo."
-      ],
-      solutions: [
-        "Paginação 100% Completa + Filtro Inteligente de Arquivo: varre todas as páginas de /products.json (+39.696 SKUs), cruza com o ranking de Mais Vendidos (?sort_by=best-selling) e isola produtos descontinuados.",
-        "Regras Nativas do Domínio Têxtil & Equipamentos: isenta automaticamente camisas de sublimação sob demanda (_FULL) e produtos de Tamanho Único, focando a auditoria de ruptura exatamente onde há perda real de conversão.",
-        "Protocolo Anti-Estoque Fantasma em 4 Camadas: audita saldo físico no ERP (Camada A), fidelidade entre foto do criativo e variante enviada (Camada B), promessa de 'Envio Imediato' (Camada C) e gatilho de pausa de anúncio (Camada D).",
-        "Fonte Única da Verdade Financeira + Dossiê Executivo PDF: todos os 18 agentes, simuladores de ROAS e relatórios PDF são alimentados por um motor financeiro canônico determinístico."
-      ],
-      archSteps: [
-        { num: "01 • DEEP PAGINATION", title: "Scan +39.696 SKUs", desc: "Varre todas as páginas da loja e cruza com a Curva A de Mais Vendidos, separando arquivo morto de vitrine ativa." },
-        { num: "02 • DOMAIN RULES", title: "Regra _FULL & Tam Único", desc: "Reconhece sublimação sob demanda, grades PP–G4, calçados 34–44 e itens de tamanho único sem falsos alertas." },
-        { num: "03 • GHOST INVENTORY", title: "Reconciliação ERP ↔ Loja", desc: "Detecta descompasso de fila entre Sankhya ERP, Hub Magis5 e Shopify e alerta sobre backorder indevido." },
-        { num: "04 • 18-AGENT DOSSIER", title: "ROI & Blindagem Liquid", desc: "Quantifica a sangria mensal em R$, gera código Liquid de proteção de tema e exporta Dossiê Executivo em PDF." }
-      ],
-      codeFilename: "WORKER / src/services/storeFinancialGroundingEngine.ts & ecommerce-cro-catalog-doctor",
-      codePreview: `// [ADSHIELD / LEAKFINDER] Regras Determinísticas de Catálogo (_FULL, Tamanho Único & Estoque Fantasma)
-export function evaluateProductInventoryRisk(product: AuditedShopifyProduct, erpPhysicalStock?: number) {
-  // 1. Regra _FULL: Vestuário de sublimação sob demanda nunca sofre ruptura física de grade
-  if (product.sku.includes('_FULL') || product.tags.includes('producao_sob_demanda')) {
-    return { status: 'EXEMPT_ON_DEMAND_FULL', financialLeakMonthly: 0 };
-  }
-
-  // 2. Protocolo Anti-Estoque Fantasma: available=true na vitrine, mas saldo físico <= 0 no ERP Sankhya
-  if (product.availableInStorefront && typeof erpPhysicalStock === 'number' && erpPhysicalStock <= 0) {
-    return {
-      status: 'CRITICAL_GHOST_INVENTORY',
-      alert: 'Botão de compra ativo em backorder sem saldo físico no galpão. Risco em campanhas ativas.'
-    };
-  }
-
-  // 3. Auditoria de Grade Central (M/G em Vestuário | 38-41 em Calçados)
-  return calculateCoreSizeClusterRupture(product.variants);
-}`,
-      productExamples: [
-        "Proteção de verba de tráfego pago em Bonés Trucker, Botinas de Couro (34–44) e Equipamentos de Pesca de Curva A.",
-        "Isenção inteligente de Camisas de Pesca UV50+ com sufixo _FULL e acessórios de Tamanho Único (Bandanas, Manguitos, Luvas).",
-        "Diagnóstico completo de velocidade mobile, contraste visual WCAG, calculadora de ROAS e geração de relatórios executivos."
-      ]
     }
   ],
 
